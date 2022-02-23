@@ -14,7 +14,7 @@
 .link {
 	text-decoration: none;
 }
-.btn{
+.btn {
 	background-color: var(--accent-color);
 	color: var(--basic-white-color);
 	border: none;
@@ -113,7 +113,7 @@
 	color: var(--link-special-color);
 }
 .address-link:hover,
-.address-link:focus{
+.address-link:focus {
 	color: var(--accent-color);
 }
 .address-list.list {
@@ -132,14 +132,14 @@
 	cursor: pointer;
 }
 .filter-btn:hover,
-.filter-btn:focus{
+.filter-btn:focus {
 	background-color: var(--accent-color);
-	color: var(--basic-white-color)	;
+	color: var(--basic-white-color);
 }
 
 /* portfolio */
-.portfolio-content{
-	background-color: var(--basic-white-color):
+.portfolio-content {
+	background-color: var(--basic-white-color);
 }
 .item-subtitle {
 	color: var(--secondary-text-color);
