@@ -18,32 +18,35 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body class="page-body">
     <!-- header -->
     <header class="main-header">
       <!-- main-logo -->
-      <a lang="en" href="" class="logo"><span class="logo-accent">Web</span>Studio</a>
-      <!-- nav-list -->
-      <nav class="nav">
-        <ul class="nav-list list">
-          <!-- nav-item -->
-          <li class="nav-item"><a href="" class="nav-link link">Студия</a></li>
-          <li class="nav-item"><a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
-          <li class="nav-item"><a href="" class="nav-link link">Контакты</a></li>
-        </ul>
-      </nav>
-      <!-- contacts -->
-      <div class="contacts">
-        <ul class="contacts-list list">
-          <li class="contacts-item">
-            <a class="contacts-link link tel" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-          <li class="contacts-item">
-            <a class="contacts-link link mail" lang="en" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
+      <div class="container">
+        <a lang="en" href="./index.html" class="logo"><span class="logo-accent">Web</span>Studio</a>
+        <!-- nav-list -->
+        <nav class="nav">
+          <ul class="nav-list list">
+            <!-- nav-item -->
+            <li class="nav-item"><a href="" class="nav-link link">Студия</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-link link">Портфолио</a></li>
+            <li class="nav-item"><a href="" class="nav-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- contacts -->
+        <div class="contacts">
+          <ul class="contacts-list list">
+            <li class="contacts-item">
+              <a class="contacts-link link tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="contacts-item">
+              <a class="contacts-link link mail" lang="en" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -52,69 +55,76 @@
       <!-- hero -->
       <section class="hero">
         <!-- hero-title -->
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <!-- button-order-device -->
-        <button type="button" class="btn">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <!-- button-order-device -->
+          <button type="button" class="btn">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- features -->
       <section class="features">
-        <!-- features-title -->
-        <h2 class="features-title">фючерсы</h2>
-        <!-- features-list -->
-        <ul class="features-list list">
-          <!-- list-item -->
-          <li class="features-item">
-            <!-- features-name -->
-            <h3 class="features-item-subtitle">Внимание к деталям</h3>
-            <!-- about-features -->
-            <p class="features-item-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-item-subtitle">Пунктуальность</h3>
-            <p class="features-item-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-item-subtitle">Планирование</h3>
-            <p class="features-item-text">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li class="features-item">
-            <h3 class="features-item-subtitle">Современные технологии</h3>
-            <p class="features-item-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <!-- features-title -->
+          <h2 class="features-title">фючерсы</h2>
+          <!-- features-list -->
+          <ul class="features-list list">
+            <!-- list-item -->
+            <li class="features-item">
+              <!-- features-name -->
+              <h3 class="features-item-subtitle">Внимание к деталям</h3>
+              <!-- about-features -->
+              <p class="features-item-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item-subtitle">Пунктуальность</h3>
+              <p class="features-item-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item-subtitle">Планирование</h3>
+              <p class="features-item-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="features-item">
+              <h3 class="features-item-subtitle">Современные технологии</h3>
+              <p class="features-item-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- what-we-do -->
       <section class="our-work">
-        <!-- what-we-do-title -->
-        <h2 class="our-work-title">Чем мы занимаемся</h2>
-        <!-- what-we-do-photos-list -->
-        <ul class="our-work-list list">
-          <!-- photos-item -->
-          <li class="our-work-item">
-            <img src="./images/box-1.jpg" alt="программист печатает" width="370" />
-          </li>
-          <li class="our-work-item">
-            <img src="./images/box-2.jpg" alt="телефон и ноутбук" width="370" />
-          </li>
-          <li class="our-work-item">
-            <img src="./images/box-3.jpg" alt="планшет с палитрой" width="370" />
-          </li>
-        </ul>
+        <div class="container">
+          <!-- what-we-do-title -->
+          <h2 class="our-work-title">Чем мы занимаемся</h2>
+          <!-- what-we-do-photos-list -->
+          <ul class="our-work-list list">
+            <!-- photos-item -->
+            <li class="our-work-item">
+              <img src="./images/box-1.jpg" alt="программист печатает" width="370" />
+            </li>
+            <li class="our-work-item">
+              <img src="./images/box-2.jpg" alt="телефон и ноутбук" width="370" />
+            </li>
+            <li class="our-work-item">
+              <img src="./images/box-3.jpg" alt="планшет с палитрой" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- our-team -->
       <section class="our-team">
-        <!-- our-team-titile -->
+        <div class="container">
+          <!-- our-team-titile -->
         <h2 class="our-team-title">Наша команда</h2>
         <!-- team-list -->
         <ul class="our-team-list list">
@@ -152,11 +162,13 @@
           </li>
         </ul>
       </section>
+        </div>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-      <!-- footer logo -->
+      <div class="container">
+        <!-- footer logo -->
       <a lang="en" href="" class="logo white link"><span class="logo-accent">Web</span>Studio</a>
       <!-- address -->
       <address>
@@ -177,6 +189,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
