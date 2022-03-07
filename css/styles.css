@@ -8,6 +8,14 @@ h6 {
 	padding: 0;
 }
 
+p {
+	margin: 0;
+}
+
+img {
+	display: block;
+}
+
 :root {
 	--basic-white-color: #ffffff;
 	--basic-black-color: #000000;
@@ -119,11 +127,43 @@ h6 {
 
 /* hero */
 
+.hero {
+	margin-bottom: 94px;
+
+	background-color: var(--footer-bg-color);
+}
+
+.hero .container {
+	padding: 200px 0;
+	text-align: center;
+}
+
+.hero-title {
+	font-size: 44px;
+	line-height: 1.36;
+	text-transform: uppercase;
+
+	color: var(--basic-white-color);
+
+	margin-bottom: 30px;
+}
+
+.hero .btn {
+	min-width: 200px;
+	padding: 10px 32px;
+	border-radius: 4px;
+}
+
 /* features */
+.features {
+	margin-bottom: 94px;
+}
 
 .features-item-subtitle {
 	color: var(--secondary-text-color);
 	font-size: inherit;
+
+	margin-bottom: 10px;
 }
 
 .features-item-text {
@@ -134,6 +174,8 @@ h6 {
 
 .our-work-title {
 	color: var(--secondary-text-color);
+
+	margin-bottom: 50px;
 }
 
 /* our team */
@@ -142,8 +184,27 @@ h6 {
 	background-color: var(--section-special-color);
 }
 
+.our-team .container {
+	padding: 94px 0;
+}
+
 .our-team-title {
 	color: var(--secondary-text-color);
+	margin-bottom: 50px;
+}
+
+.our-team-persone {
+	width: 270px;
+	text-align: center;
+}
+
+.persone-name {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.persone-about {
+	margin-bottom: 30px;
 }
 
 .persone-name {
@@ -154,6 +215,19 @@ h6 {
 
 .footer {
 	background-color: var(--footer-bg-color);
+}
+
+.footer .container {
+	padding: 60px 0;
+}
+
+.footer .logo {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.address-item {
+	margin-bottom: 9px;
 }
 
 .address-location {
