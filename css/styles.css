@@ -59,7 +59,8 @@ img {
 .container {
 	width: 1200px;
 	padding: 0 15px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* body */
@@ -83,6 +84,10 @@ img {
 	letter-spacing: 2%;
 }
 
+.main-header .container {
+	display: flex;
+}
+
 /* logo */
 
 .logo {
@@ -91,6 +96,9 @@ img {
 	font-weight: 700;
 	font-size: 26px;
 	text-decoration: none;
+
+	margin-top: 24px;
+	margin-bottom: 25px;
 }
 
 .logo-accent {
@@ -107,6 +115,21 @@ img {
 
 /* navigation */
 
+.nav {
+	margin-left: 94px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-right: 331px;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-list .nav-item + .nav-item {
+	margin-left: 50px;
+}
+
 .nav-link {
 	color: var(--secondary-text-color);
 }
@@ -114,6 +137,20 @@ img {
 .nav-link:hover,
 .nav-link:focus {
 	color: var(--accent-color);
+}
+
+/* contacts */
+.contacts {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.contacts-list {
+	display: flex;
+}
+
+.contacts-list .contacts-item + .contacts-item {
+	margin-left: 50px;
 }
 
 .contacts-link {
@@ -139,6 +176,7 @@ img {
 }
 
 .hero-title {
+	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	text-transform: uppercase;
@@ -173,6 +211,8 @@ img {
 /* our work */
 
 .our-work-title {
+	text-align: center;
+
 	color: var(--secondary-text-color);
 
 	margin-bottom: 50px;
@@ -191,6 +231,8 @@ img {
 .our-team-title {
 	color: var(--secondary-text-color);
 	margin-bottom: 50px;
+
+	text-align: center;
 }
 
 .our-team-persone {
@@ -223,11 +265,12 @@ img {
 
 .footer .logo {
 	display: inline-block;
+	margin-top: 0;
 	margin-bottom: 20px;
 }
 
-.address-item {
-	margin-bottom: 9px;
+.address-list .address-item + .address-item {
+	margin-top: 9px;
 }
 
 .address-location {
