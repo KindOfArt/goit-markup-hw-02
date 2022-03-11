@@ -231,8 +231,13 @@ img {
 	display: flex;
 }
 
-.our-work-list .our-work-item + .our-work-item {
+/* .our-work-list .our-work-item + .our-work-item {
 	margin-left: 30px;
+} */
+
+.our-work-item {
+	width: calc((100% - 60px) / 3);
+	margin-right: 30px;
 }
 
 .our-work-title {
