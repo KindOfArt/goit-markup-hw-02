@@ -91,8 +91,8 @@ img {
 .main-header .container {
 	display: flex;
 	align-items: center;
+	border-bottom: 1px solid #ececec;
 }
-
 /* logo */
 
 .logo {
@@ -170,7 +170,7 @@ img {
 /* hero */
 
 .hero {
-	margin-bottom: 94px;
+	/* margin-bottom: 94px; */
 
 	background-color: var(--footer-bg-color);
 }
@@ -199,7 +199,9 @@ img {
 
 /* features */
 .features {
-	margin-bottom: 94px;
+	padding-top: 94px;
+	padding-bottom: 94px;
+	/* margin-bottom: 94px; */
 }
 
 .features-list {
@@ -255,7 +257,8 @@ img {
 }
 
 .our-team .container {
-	padding: 94px 0;
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .our-team-title {
@@ -298,7 +301,10 @@ img {
 }
 
 .footer .container {
-	padding: 60px 0;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .footer .logo {
@@ -397,6 +403,8 @@ img {
 	flex-basis: calc(100% / 3 - var(--portfolio-card-gap));
 	margin-right: var(--portfolio-card-gap);
 	margin-bottom: var(--portfolio-card-gap);
+
+	border-bottom: 1px solid #ececec;
 }
 
 .item-subtitle {
