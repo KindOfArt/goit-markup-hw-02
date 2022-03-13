@@ -383,9 +383,6 @@ p {
 }
 
 /* portfolio cards */
-a {
-	display: block;
-}
 .cards {
 	display: flex;
 	flex-wrap: wrap;
