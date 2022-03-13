@@ -65,7 +65,7 @@ p {
 /* контейнер */
 
 .container {
-	width: 1170px;
+	width: 1200px;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-left: auto;
@@ -73,6 +73,12 @@ p {
 }
 
 /* контент */
+
+.content {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* buttons */
 
