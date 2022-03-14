@@ -2,6 +2,7 @@
 	--main-text-color: #212121;
 	--second-text-color: #757575;
 	--accent-color: #2196f3;
+	--hero-btn-accent: #188ce8;
 	--bg-color: #ffffff;
 	--bg-our-team: #f5f4fa;
 	--bg-footer: #2f303a;
@@ -88,6 +89,11 @@ p {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 	cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--hero-btn-accent);
 }
 
 .filter-btn {
@@ -361,8 +367,13 @@ p {
 }
 
 .address-link {
-	color: var(--second-text-color);
+	color: var(--footer-contacts);
 	padding: 0;
+}
+
+.address-link:hover,
+.address-link:focus {
+	color: var(--accent-color);
 }
 
 .place {
