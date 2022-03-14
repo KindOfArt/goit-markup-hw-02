@@ -396,7 +396,7 @@ p {
 
 .cards-item {
 	width: calc((100% - 60px) / 3);
-	border: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .cards-item:not(:nth-child(3n)) {
