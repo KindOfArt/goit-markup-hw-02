@@ -2,6 +2,7 @@
 	--main-text-color: #212121;
 	--second-text-color: #757575;
 	--accent-color: #2196f3;
+	--hero-gradient: rgba(47, 48, 58, 0.4);
 	--hero-btn-accent: #188ce8;
 	--bg-color: #ffffff;
 	--bg-our-team: #f5f4fa;
@@ -242,7 +243,15 @@ p {
 /* hero */
 
 .hero {
-	background-color: var(--bg-footer);
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 1px solid black;
+	background-image: linear-gradient(to right, var(--hero-gradient), var(--hero-gradient)), url(../images/hero-photo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .hero {
